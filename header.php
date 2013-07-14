@@ -28,7 +28,7 @@
     <meta name="twitter:card" content=".... ">
     <meta name="twitter:site" content="@i">
     <meta name="twitter:creator" content="@">
-    <meta name="twitter:title" content="i.james.jones">
+    <meta name="twitter:title" content="futarigurashi">
     <meta name="twitter:description" content="...">
     <meta name="twitter:image" content="http://www.futarigurashi.com/assets/logo.jpg">
 
@@ -49,16 +49,23 @@
          <div id="logo">
             <a href="#"> <?php bloginfo('name'); ?></a>
           </div>
+       
         <div class="nav-inner">
-
-          
-        
      
 
-           <?php wp_nav_menu(array('menu' => 'main' )); ?> 
-    
+          <?php wp_nav_menu(array('menu' => 'main' )); ?> 
+      
+           <div class="rss">
+          
+         
+          <a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>"><img src=
+           "<?php bloginfo('template_directory'); ?>/images/rss.svg" alt="RSS Feed" title="RSS Feed" /></a>
+
+          </div>
         
         </div>
+   
+      
       </div><!-- navigation -->
 
 

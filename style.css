@@ -81,15 +81,25 @@ html[xmlns] .clearfix {
 
       }
 
-      .rss{
+      .navIconContainer{
         float:right;
+        margin:-1% -30% 0 0;
 
+
+      }
+      .navIconContainer img{
+        width: 10%;
+      }
+
+    /*  .twitter{
+        float:right;
         margin-right:-10%;
+        
+       }*/
 
-      }
-      .rss img{
-        width: 25%;
-      }
+       .twitter img{
+        width:20%;
+       }
 
       .contentWrapper{
         padding: 5% 0;

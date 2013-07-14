@@ -70,14 +70,14 @@ html[xmlns] .clearfix {
       }
 
       .header{
-        min-height: 600px;
+        min-height: 400px;
         width:100%;
         background: url(images/chipmunk.jpg) no-repeat center;
         background-size: cover;
-        background-position: 50% 20%;
+        background-position: 50% 30%;
         top:-20px;
         margin: 0 auto;
-        background:yellow;
+
 
       }
 
@@ -99,7 +99,7 @@ html[xmlns] .clearfix {
 
       a{
         text-decoration: none;
-        color:#182d3b;
+        
       }
 
       .nav{
@@ -111,7 +111,7 @@ html[xmlns] .clearfix {
         z-index: 999;
         top:0;
         left:10%;
-        border-bottom: 4px solid #99D3D8;
+        /*border-bottom: 4px solid #7EE1F4;*/
 
       
       }
@@ -130,13 +130,13 @@ html[xmlns] .clearfix {
 
       ul#menu-main{
        
-      
+      margin-top:-1%;
       
       }
       
         ul#menu-main li{
          
-          
+         
           list-style: none;
           float:left;
           margin-left:1%;
@@ -148,8 +148,8 @@ html[xmlns] .clearfix {
         font-size: 21px;
         text-decoration: none;
         padding:10px;
-      /*  color:#B0E57C;*/
-        color:black;
+        color:#7EE1F4;
+      
       
        }  
 
@@ -172,20 +172,25 @@ html[xmlns] .clearfix {
 
 
 
+      .post a{
+      /*  color:#7EE1F4;*/
+      }
+
 
       .categoryLabel a{
        /* background: black;*/
-        padding:1%;
+        margin:1%;  
         color:gray;
         text-align: right;
         display:block;
         /*width:140px;*/
         float:right;
-        border-bottom:1px solid #B0E57C;
+        border-bottom:1px solid #51E4A5;
+        font-size: 0.750em;
       }
 
       .timeStamp{
-        font-size: 10px;
+        font-size: 0.563em;
         color:gray;
         font-style: italic;
       }
@@ -197,25 +202,29 @@ html[xmlns] .clearfix {
       }
 
       #logo{
-        float:right;
-        width:180px;
-        height:80px;
+        float:left;
+        width: 140px;
+
+       /* width:180px;
+        height:80px;*/
       }
       #logo a{
-   
-        padding-top:5%;
+        background:#7EE1F4;
+        color:white;
+        padding:20%;
         display: block;
-        width:100%;
-        height:100%;
+        text-align: center;
 
         text-decoration: none;
-        text-indent: -10000px;
+       /* text-indent: -10000px;*/
   /*      background: url('images/logo.png') no-repeat 0 0;*/
 
       }
       #logo a:hover{
 
       }
+
+
 
    
 

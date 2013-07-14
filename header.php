@@ -46,12 +46,13 @@
 
       <div class="nav">
        
+         <div id="logo">
+            <a href="#"> <?php bloginfo('name'); ?></a>
+          </div>
         <div class="nav-inner">
 
           
-          <div id="logo">
-            <a href="#"> <?php bloginfo('name'); ?> </a>
-          </div>
+        
      
 
            <?php wp_nav_menu(array('menu' => 'main' )); ?> 

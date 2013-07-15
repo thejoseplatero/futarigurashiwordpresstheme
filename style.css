@@ -43,9 +43,9 @@ html[xmlns] .clearfix {
         font-family: 'Raleway', sans-serif;
         line-height: 1.2em;
         color:black;
-        background: #AAD6C9;
+        
          
-    /*   background: url(images/gplaypattern.png);*/
+       background: url(images/seadots.png) #AAD6C9 center;
 
       }
 
@@ -188,8 +188,8 @@ html[xmlns] .clearfix {
 
 
 
-      .post a{
-        color:black;
+      .post h2 a{
+        color:#182d3b;
       }
 
 
@@ -214,7 +214,8 @@ html[xmlns] .clearfix {
 
       #logo{
         float:left;
-        width: 140px;
+        width:12%;
+        height:100%;
 
        /* width:180px;
         height:80px;*/
@@ -294,15 +295,20 @@ html[xmlns] .clearfix {
         padding-top:5%;
         margin:0 auto;
         text-align: center;
-        background: #182d3b;
-        color:white;
+        background: white;
+        color:#AAD6C9;
         min-height: 200px;
+        border-top:1px solid #dfdfdf;
       }
-
+      
       .flag{
-       /* background: url(images/flag.svg) no-repeat center;*/
-        width:40px;
-        height: 40px;
+        margin:0 auto;
+        width: 3%;
+     
+
+      }
+      .flag img{
+            width:100%;
 
       }
 

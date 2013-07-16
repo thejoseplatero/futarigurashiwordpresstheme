@@ -21,8 +21,7 @@
     <meta property="og:description" content="..."/>
     <meta property="og:image" content="http://www.futarigurashi.com/assets/ian.jpg"/>
     
-    <!-- facebook comments integration -->
-    <meta property='fb:app_id' content='297600557043316' />  
+    <!--     <meta property='fb:app_id' content='297600557043316' />   -->
 
     <!-- twitter meta -->
     <meta name="twitter:card" content=".... ">
@@ -42,6 +41,18 @@
 
 </head>
   <body <?php body_class(); ?>>
+<!-- facebook comments integration -->
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=587695514607951";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    
     <div class="wrapper">
 
       <div class="nav">
@@ -57,13 +68,10 @@
       
            <div class="navIconContainer">
           
-             <a href="http://twitter.com/futarigurashi/"> <img src=
-             "<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="twitter" title="twitter" /></a>
-
-             <a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>"><img src=
-             "<?php bloginfo('template_directory'); ?>/images/rss.svg" alt="RSS Feed" title="RSS Feed" /></a>
-
-                
+       
+           <img src=
+           "<?php bloginfo('template_directory'); ?>/images/flag.svg" alt="canadian flag" title="canadian flag" />
+    
            
           </div>
         

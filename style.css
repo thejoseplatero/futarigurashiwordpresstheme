@@ -45,7 +45,8 @@ html[xmlns] .clearfix {
         color:black;
         
          
-       background: url(images/seadots.png) #AAD6C9 center;
+       background: url(images/bg.png) #f6f6f6 center;
+
 
       }
 
@@ -81,15 +82,25 @@ html[xmlns] .clearfix {
 
       }
 
+      .iconContainer{
+    
+       /* margin:-2% -30% 0 0;*/
+        display:inline;
+      }
+
+      .iconContainer img{
+        width:5%;
+      }
+
+
+
       .navIconContainer{
         float:right;
-        margin:-1% -30% 0 0;
+        margin:-1% -10% 0 0;
         display:inline;
-
-
       }
       .navIconContainer img{
-        width: 10%;
+        width: 25%;
       }
 
 
@@ -155,15 +166,15 @@ html[xmlns] .clearfix {
          
           list-style: none;
           float:left;
-          margin-left:1%;
+          margin-left:2%;
+          margin-top:-0.4%;
          
         }
 
 
        ul#menu-main li a{
-        font-size: 21px;
+        font-size: 1.313em;
         text-decoration: none;
-        padding:10px;
         color:#AAD6C9;
       
       
@@ -216,9 +227,6 @@ html[xmlns] .clearfix {
         float:left;
         width:12%;
         height:100%;
-
-       /* width:180px;
-        height:80px;*/
       }
       #logo a{
         background:#AAD6C9;
@@ -226,10 +234,7 @@ html[xmlns] .clearfix {
         padding:20%;
         display: block;
         text-align: center;
-
         text-decoration: none;
-       /* text-indent: -10000px;*/
-  /*      background: url('images/logo.png') no-repeat 0 0;*/
 
       }
       #logo a:hover{

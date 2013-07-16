@@ -45,7 +45,7 @@ html[xmlns] .clearfix {
         color:black;
         
          
-       background: url(images/bg.png) #f6f6f6 center;
+       background: url(images/bg.png) #f6f6f6 center fixed;
 
 
       }

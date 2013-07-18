@@ -1,7 +1,7 @@
- <?php   /* Template Name: About Template */ ?>
+ <?php   /* Template Name: Profile Template */ ?>
 
  <?php get_header(); ?>
-   <div class="header aboutHeader">
+   <div class="header profileHeader">
      
    </div>
        <div class="contentWrapper upContentWrapper">

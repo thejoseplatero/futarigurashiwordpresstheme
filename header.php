@@ -52,7 +52,7 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    
+
     <div class="wrapper">
 
       <div class="nav">
@@ -64,25 +64,27 @@
         <div class="nav-inner">
      
 
-          <?php wp_nav_menu(array('menu' => 'main' )); ?> 
+          <?php wp_nav_menu(array('menu' => 'main' )); ?>  
       
            <div class="navIconContainer">
-          
-       
+        
            <img src=
            "<?php bloginfo('template_directory'); ?>/images/flag.svg" alt="canadian flag" title="canadian flag" />
     
-           
+         
           </div>
         
         </div>
+
+      
    
       
-      </div><!-- navigation -->
+      </div><!-- main navigation -->
 
-
+       
+     
       <?php if( is_front_page() ) { ?>
-        <div class="header" id="header">
+        <div class="header mainHeader" id="header">
 
 
         </div><!-- header -->

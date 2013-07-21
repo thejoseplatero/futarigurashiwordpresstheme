@@ -32,16 +32,18 @@
 
                   </h2>
 
-               
+             <?php the_content('More'); ?>
                    
-                 
-                <?php the_content(); ?>
-<!-- 
-                  <?php the_excerpt(); ?> -->
-           <!--       
-                 <a href="<?php the_permalink(); ?>" class="button"> Read More <span class="arrow"></span> </a> -->
+                    
 
-                  <div class="iconContainer clearfix">
+                
+                    
+
+
+           <!--       
+                 <a href="<?php the_permalink(); ?>" class="read-more"> Read More <span class="arrow"></span> </a> -->
+
+            <!--       <div class="iconContainer clearfix">
                  
                     <a href="http://twitter.com/futarigurashi/"> <img src=
                     "<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="twitter" title="twitter" /></a>
@@ -51,12 +53,8 @@
  
                
                  </div>
-                    
-                    
-                    <div class="fb-comments" data-href="http://futarigurashi.com" data-width="470" data-num-posts="2"></div> 
-   
-                       
-                    
+                     -->
+                                      
                  
                 </div>
          </div>

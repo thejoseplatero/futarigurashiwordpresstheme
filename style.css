@@ -214,22 +214,8 @@ html[xmlns] .clearfix {
 
 
 
-         .nav-recent ul#menu-main .recent:hover {
-            background:yellow;
-            
 
-        }
-
-       ul#menu-main .recent:hover + .nav-recent{
-          background:red;
-        }
-
-        .nav-recent{
-          width:80%;
-          margin:0 auto;
-          min-height: 200px;
-          background:blue;
-        }
+      
 
 
 
@@ -335,6 +321,43 @@ html[xmlns] .clearfix {
         padding:5% 10%;
         margin: 0 auto;
        
+      }
+
+      .top-list-box-wrapper{
+          margin:0 auto;
+      
+      }
+
+      .top-list-box{
+        width:25%;
+        float:left;
+        background: yellow;
+       margin-right: 3%;
+        list-style: none;
+        line-height: 1.4em;
+      
+      }
+
+      #recent-posts{
+      
+        background: yellow;
+        padding:4%;
+       
+       
+      }
+
+      #recommended-posts{
+    
+        background: yellow;
+        padding:4%;
+      
+      }
+
+      #category-list{
+   
+        background: yellow;
+        padding:4%;
+  
       }
 
     

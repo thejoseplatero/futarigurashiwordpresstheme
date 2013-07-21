@@ -85,6 +85,26 @@
      
       <?php if( is_front_page() ) { ?>
         <div class="header mainHeader" id="header">
+        
+        
+
+    <div class="top-list-box-wrapper">
+        <ul id="recent-posts" class="top-list-box">
+        <?php get_archives('postbypost', '5', 'html', '', '', FALSE); ?>
+        </ul>
+        
+
+        <ul id="recommended-posts" class="top-list-box">
+        <?php get_archives('postbypost', '5', 'html', '', '', FALSE); ?>
+        </ul>
+
+
+          
+        <ul id="category-list" class="top-list-box">
+        <?php get_archives('postbypost', '5', 'html', '', '', FALSE); ?>
+        </ul>
+    </div> 
+
 
 
         </div><!-- header -->

@@ -6,20 +6,25 @@
 
 
 
- class Walker_Nav_Pointers extends Walker_Nav_Menu
- {
-     function start_lvl( &$output, $depth = 0, $args = array() )
-     {
-         $indent = str_repeat("\t", $depth);
-         $output .= "\n$indent<ul class=\"sub-menu\">\n";
-         $output .= "\n<div class=\"pointer\">\n";
-     }
-     function end_lvl( &$output, $depth = 0, $args = array() )
-     {
-         $indent = str_repeat("\t", $depth);
-         $output .= "$indent</ul>\n".($depth ? "$indent</div>\n" : "");
-     }
- } 
+
+
+
+// more link remove jump to last position
+  function remove_more_jump_link($link) { 
+    $offset = strpos($link, '#more-');
+    if ($offset) {
+      $end = strpos($link, '"',$offset);
+    }
+    if ($end) {
+      $link = substr_replace($link, '', $offset, $end-$offset);
+    }
+    return $link;
+  }
+  add_filter('the_content_more_link', 'remove_more_jump_link');
+
+
+
+
 
 
  ?>

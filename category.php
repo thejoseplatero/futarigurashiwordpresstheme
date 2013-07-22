@@ -31,7 +31,7 @@
                     </span>
                   </h2>
                  
-              
+                
                   <?php the_excerpt(); ?>
                  
                  

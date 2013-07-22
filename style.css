@@ -143,12 +143,19 @@ html[xmlns] .clearfix {
 
       .upContentWrapper{
         
-          margin: -10% auto 0 auto;
+          margin: -12% auto 0 auto;
       }
 
       .content{
           margin:4% 0;
 
+      }
+
+      .sidebar{
+        width:10%;
+        float:left;
+        background:yellow;
+        margin-left:2%;
       }
 
       a{
@@ -165,8 +172,7 @@ html[xmlns] .clearfix {
         z-index: 999;
         top:0;
         left:10%;
-        /*border-bottom: 4px solid #7EE1F4;*/
-
+      
       
       }
 
@@ -314,7 +320,7 @@ html[xmlns] .clearfix {
        float:left;
        margin-right:3%;
       
- /*      margin: -2.1% 2% 0 -2%;*/
+
       } 
 
       .full{
@@ -324,42 +330,52 @@ html[xmlns] .clearfix {
       }
 
       .top-list-box-wrapper{
-          margin:0 auto;
+        padding: 5% 0;
+       
+        position: relative;
+
       
       }
 
       .top-list-box{
-        width:25%;
+        width:32%;
         float:left;
-        background: yellow;
-       margin-right: 3%;
+        background: white;
+        font-size: 0.750em;
         list-style: none;
-        line-height: 1.4em;
+        line-height: 1.6em;
+        padding:3%;
+        box-shadow: 2px 2px 5px #7D7D7D;
+        border-radius:3px;
       
       }
 
       #recent-posts{
       
-        background: yellow;
-        padding:4%;
-       
-       
+      margin-left: 2%;
+      
+        
       }
 
-      #recommended-posts{
+      #popular-posts{
     
-        background: yellow;
-        padding:4%;
+      margin-left: 2%;
+    
+     
       
       }
 
       #category-list{
-   
-        background: yellow;
-        padding:4%;
-  
-      }
+     
+     
+        
 
+      }
+        .cat-item{
+          list-style: none;
+          display:inline;
+          padding:10px;
+        }
     
 
     

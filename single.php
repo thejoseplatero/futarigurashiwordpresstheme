@@ -3,9 +3,14 @@
  <div class="contentWrapper">
     <div class="content">
           <?php 
-            while(have_posts()): the_post();
-              //display content from the post
+            while(have_posts()): the_post(); //display content from the post
+           
+
+
           ?>
+
+      
+
                   <div class="post full">
 
                     <div class="categoryLabel"><?php the_category(', '); ?></div>

@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,14 +18,14 @@
     <meta property="og:title" content"<?php bloginfo('name'); ?>" />
     <meta property="og:url" content="http://www.futarigurashi.com"/>
     <meta property="og:description" content="..."/>
-    <meta property="og:image" content="http://www.futarigurashi.com/assets/ian.jpg"/>
+    <meta property="og:image" content="http://www.futarigurashi.com/..."/>
     
     <!--     <meta property='fb:app_id' content='297600557043316' />   -->
 
     <!-- twitter meta -->
     <meta name="twitter:card" content=".... ">
-    <meta name="twitter:site" content="@i">
-    <meta name="twitter:creator" content="@">
+    <meta name="twitter:site" content="@futarigurashi">
+    <meta name="twitter:creator" content="@apuriko">
     <meta name="twitter:title" content="futarigurashi">
     <meta name="twitter:description" content="...">
     <meta name="twitter:image" content="http://www.futarigurashi.com/assets/logo.jpg">
@@ -37,7 +36,7 @@
     <!-- google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
+    <?php wp_head() ?>
 
 </head>
   <body <?php body_class(); ?>>
@@ -88,24 +87,6 @@
         
         
 
-    <div class="top-list-box-wrapper">
-        <ul id="recent-posts" class="top-list-box">
-        <?php get_archives('postbypost', '5', 'html', '', '', FALSE); ?>
-        </ul>
-        
-
-        <ul id="recommended-posts" class="top-list-box">
-        <?php get_archives('postbypost', '5', 'html', '', '', FALSE); ?>
-        </ul>
-
-
-          
-        <ul id="category-list" class="top-list-box">
-        <?php get_archives('postbypost', '5', 'html', '', '', FALSE); ?>
-        </ul>
-    </div> 
-
-
 
         </div><!-- header -->
 
@@ -115,8 +96,3 @@
    
   
      </div>
-
-
-
-
-

@@ -2,10 +2,38 @@
 
      <div class="contentWrapper upContentWrapper">
 
+
+  <div class="top-list-box-wrapper ">
+
+      <ul id="category-list" class="top-list-box">
+      <?php wp_list_categories('title_li=&hierarchical=0&depth=1');?>
+      </ul>
+
+      <ul id="recent-posts" class="top-list-box">
+      
+     <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5 ) ); ?>
+      </ul>
+      
+
+      <ul id="popular-posts" class="top-list-box">
+        <?php wpp_get_mostpopular(); ?>
+  
+      </ul>
+
+
+        
+     
+  </div> 
+          
+ 
+
+
         <?php 
           while(have_posts()):
             the_post();
             //display content from the post
+       
+
 
         ?>
  
@@ -34,26 +62,7 @@
 
              <?php the_content('More'); ?>
                    
-                    
-
-                
-                    
-
-
-           <!--       
-                 <a href="<?php the_permalink(); ?>" class="read-more"> Read More <span class="arrow"></span> </a> -->
-
-            <!--       <div class="iconContainer clearfix">
-                 
-                    <a href="http://twitter.com/futarigurashi/"> <img src=
-                    "<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="twitter" title="twitter" /></a>
-
-                    <a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>"><img src=
-                    "<?php bloginfo('template_directory'); ?>/images/rss.svg" alt="RSS Feed" title="RSS Feed" /></a>
- 
-               
-                 </div>
-                     -->
+           
                                       
                  
                 </div>
@@ -62,5 +71,8 @@
         <?php
           endwhile;
         ?>
+      
+
       </div>
+       <?php get_sidebar() ?>
 <?php get_footer(); ?>  

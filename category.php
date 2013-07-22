@@ -10,7 +10,7 @@
 
         ?>
 
-        <div class="content">
+        <div class="content clearfix">
                 <div class="post preview">
                 
                   <div class="featuredImageContainer">

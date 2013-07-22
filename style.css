@@ -148,16 +148,11 @@ html[xmlns] .clearfix {
 
       .content{
           margin:4% 0;
+          width:78%;
 
       }
 
-      .sidebar{
-        width:10%;
-        float:left;
-        background:yellow;
-        margin-left:2%;
-      }
-
+   
       a{
         text-decoration: none;
         
@@ -306,6 +301,7 @@ html[xmlns] .clearfix {
         border-radius:3px;
         font-size:1.000em;
         line-height: 1.4em;
+        float:left;
       }
 
       .preview{
@@ -329,17 +325,24 @@ html[xmlns] .clearfix {
        
       }
 
-      .top-list-box-wrapper{
+   /*   .side-list-box-wrapper{
         padding: 5% 0;
+        float:left;
        
-        position: relative;
 
       
       }
+*/
 
-      .top-list-box{
-        width:32%;
-        float:left;
+      .sidebar{
+          width:20%;
+          float:right;
+          position: relative;
+          margin-top:4%;
+      }
+
+      .side-list-box{
+     
         background: white;
         font-size: 0.750em;
         list-style: none;

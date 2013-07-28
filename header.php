@@ -41,6 +41,9 @@
 </head>
   <body <?php body_class(); ?>>
 <!-- facebook comments integration -->
+<!-- top button -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
 
     <div id="fb-root"></div>
     <script>(function(d, s, id) {

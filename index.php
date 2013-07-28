@@ -1,5 +1,7 @@
 <?php get_header(); ?>
  <div class="contentWrapper upContentWrapper">
+   
+
    <?php get_sidebar() ?>  
     <div class="content clearfix">
 
@@ -41,6 +43,8 @@
 
       </div> 
     </div>
+
+
      
         
 <?php get_footer(); ?>  

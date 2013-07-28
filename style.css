@@ -375,6 +375,9 @@ html[xmlns] .clearfix {
       }
 
       .side-list-box h3{
+        font-size: 1.000em;
+        letter-spacing: 0.2em;
+        font-weight: normal;
         color:gray;
         position: relative;
         margin-top: -4%;
@@ -387,7 +390,23 @@ html[xmlns] .clearfix {
           list-style: none;
          
        }
-    
+        
+        .go-top{
+          position:fixed;
+          bottom: 1%;
+          right:0%;
+          text-decoration: none;
+          color:white;
+          background:rgba(0,0,0,.3);
+          font-size: 1.000em;
+          padding:1em;
+          display:none;
+        }
+
+        .go-top:hover{
+          background-color: rgba(0,0,0,0.6);
+          text-decoration: none;
+        }
 
     
       

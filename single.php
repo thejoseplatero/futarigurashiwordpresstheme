@@ -1,7 +1,7 @@
  <?php get_header(); ?>
 
  <div class="contentWrapper">
-    <div class="content clearfix">
+    <div class="content single-post clearfix">
           <?php 
             while(have_posts()): the_post(); //display content from the post
            

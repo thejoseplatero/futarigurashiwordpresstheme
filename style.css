@@ -57,7 +57,15 @@ html[xmlns] .clearfix {
         line-height: 1.6em;
         font-size: 1.000em;
       }
+      
+      a{
+        color:#1fd0da;
+      }
 
+      a:hover{
+        text-decoration: underline;
+
+      }
       .img{
         max-width: 100%;
       }
@@ -148,9 +156,17 @@ html[xmlns] .clearfix {
 
       .content{
           margin:4% 0;
-          width:78%;
+          width:79%;
 
       }
+
+      .single-post{
+        width:100%;
+      }
+
+  
+
+
 
    
       a{
@@ -312,7 +328,7 @@ html[xmlns] .clearfix {
       .featuredImageContainer{
        overflow: hidden;
        width:40%;
-       max-height:400px;
+       max-height:320px;
        float:left;
        margin-right:3%;
       
@@ -325,60 +341,52 @@ html[xmlns] .clearfix {
        
       }
 
-   /*   .side-list-box-wrapper{
-        padding: 5% 0;
-        float:left;
-       
 
-      
-      }
-*/
 
       .sidebar{
           width:20%;
           float:right;
           position: relative;
-          margin-top:4%;
+          margin-top:3.7%;
+
       }
 
-      .side-list-box{
-     
+      .sidebar ul{
+        list-style: none;
+        padding: 0;
+ 
+      }
+
+    
+
+      ul.side-list-box{
+        
         background: white;
         font-size: 0.750em;
         list-style: none;
         line-height: 1.6em;
-        padding:3%;
+       
         box-shadow: 2px 2px 5px #7D7D7D;
         border-radius:3px;
+         padding-left:10%;
+         padding-right: 10%;
+         padding:10%;
       
       }
 
-      #recent-posts{
+      .side-list-box h3{
+        color:gray;
+        position: relative;
+        margin-top: -4%;
+        border-bottom: 1px solid gray;
       
-      margin-left: 2%;
-      
-        
-      }
-
-      #popular-posts{
-    
-      margin-left: 2%;
-    
-     
-      
-      }
-
-      #category-list{
-     
-     
-        
 
       }
+
         .cat-item{
           list-style: none;
-          display:inline;
-          padding:10px;
-        }
+         
+       }
     
 
     

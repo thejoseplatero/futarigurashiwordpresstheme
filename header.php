@@ -62,9 +62,9 @@
        
         <div class="nav-inner">
      
-
-          <?php wp_nav_menu(array('menu' => 'main' )); ?>  
-      
+       
+            <?php wp_nav_menu(array('menu' => 'main' )); ?>  
+     
            <div class="navIconContainer">
         
            <img src=

@@ -18,10 +18,13 @@
 
                     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 
-                      <span class="timeStamp">
-                       <?php echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . ' ago'; ?> 
-                      </span> 
+
                       </h2>
+
+                      <div class="timeStamp">
+                        <?php echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . ' ago'; ?> 
+                       </div> 
+
                    
                       <?php the_content(); ?>
                       

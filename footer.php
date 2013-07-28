@@ -1,5 +1,5 @@
   <div class="footer">
-<a href="#" class="go-top">TOP</a>
+<a href="#" class="go-top">Top</a>
           <div class="flag">
            <img src=
            "<?php bloginfo('template_directory'); ?>/images/flag.svg" alt="canadian flag" title="canadian flag" />

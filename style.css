@@ -269,7 +269,7 @@ html[xmlns] .clearfix {
       .timeStamp{
         font-size: 0.563em;
         color:gray;
-        font-style: italic;
+        margin-top: -2%;
       }
 
 

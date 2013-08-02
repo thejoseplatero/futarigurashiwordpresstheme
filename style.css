@@ -197,13 +197,13 @@ html[xmlns] .clearfix {
         width: 50%;
       }
 
-      ul#menu-main{
+ /*     ul#menu-main{
        
       margin-top:-1%;
       
       }
-      
-        ul#menu-main li{
+      */
+   /*     ul#menu-main li{
          
          
           list-style: none;
@@ -211,29 +211,21 @@ html[xmlns] .clearfix {
           margin-left:2%;
           margin-top:-0.4%;
          
-        }
+        }*/
 
-
+/*
        ul#menu-main li a{
         font-size: 1.000em;
         text-decoration: none;
         color:white;
       
       
-       }  
+       } */ 
 
         ul#menu-main a:hover {
         border-bottom: 1px solid #B0E57C;
 
         }
-
-
-
-
-      
-
-
-
 
        .band{
         min-height: 200px;
@@ -387,8 +379,8 @@ html[xmlns] .clearfix {
         list-style: none;
         line-height: 1.6em;
        
-        box-shadow: 2px 2px 5px #7D7D7D;
-        border-radius:3px;
+         box-shadow: 2px 2px 5px #7D7D7D;
+         border-radius:3px;
          padding-left:10%;
          padding-right: 10%;
          padding:10%;

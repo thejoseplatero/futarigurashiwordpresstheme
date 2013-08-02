@@ -1,14 +1,13 @@
 <div class="sidebar">
 
-	<ul id="menu-posts" class="side-list-box most-popular">
+	<ul id="search" class="side-list-box search">
 		<h3>Search</h3>
-       <?php wp_nav_menu(array('menu' => 'main' )); ?> 
-  	 </ul>
+  </ul>
 
-  	 	<ul id="menu" class="side-list-box most-popular">
-  	 		<h3>Menu</h3>
-  	        <?php wp_nav_menu(array('menu' => 'main' )); ?> 
-  	   	 </ul>
+ 	<ul id="menu" class="side-list-box menu">
+ 		<h3>Menu</h3>
+        <?php wp_nav_menu(array('menu' => 'main' )); ?> 
+  </ul>
 
 	<ul id="popular-posts" class="side-list-box most-popular">
 		<h3>人気の記事</h3>

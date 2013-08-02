@@ -39,7 +39,11 @@
                             
                 
                       </div>
-                
+
+                   
+                        <?php related_posts(); ?>
+                     
+           
                
                           <div class="fb-comments" data-href="http://futarigurashi.com" data-width="470" data-num-posts="2"></div> 
 

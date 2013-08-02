@@ -55,25 +55,20 @@
     <div class="wrapper">
 
       <div class="nav">
-       
-         <div id="logo">
-            <a href="#"> <?php bloginfo('name'); ?></a>
+       <div class="nav-flag">
+         <img src=
+         "<?php bloginfo('template_directory'); ?>/images/flagwhite.svg"
+          alt="canadian flag" title="canadian flag" /> 
           </div>
+          
+          <div id="logo">
+             <a href="#"> <?php bloginfo('name'); ?></a>
+               
+            </div>
+
        
-        <div class="nav-inner">
-     
-       
-            <?php wp_nav_menu(array('menu' => 'main' )); ?>  
-     
-           <div class="navIconContainer">
         
-           <img src=
-           "<?php bloginfo('template_directory'); ?>/images/flag.svg" alt="canadian flag" title="canadian flag" />
-    
-         
-          </div>
-        
-        </div>
+     
 
       
    

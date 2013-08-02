@@ -1,5 +1,15 @@
 <div class="sidebar">
 
+	<ul id="menu-posts" class="side-list-box most-popular">
+		<h3>Search</h3>
+       <?php wp_nav_menu(array('menu' => 'main' )); ?> 
+  	 </ul>
+
+  	 	<ul id="menu" class="side-list-box most-popular">
+  	 		<h3>Menu</h3>
+  	        <?php wp_nav_menu(array('menu' => 'main' )); ?> 
+  	   	 </ul>
+
 	<ul id="popular-posts" class="side-list-box most-popular">
 		<h3>人気の記事</h3>
        <?php if (function_exists('wpp_get_mostpopular')) wpp_get_mostpopular("range=all&order_by=views&stats_views=0&stats_comments=0&limit=5"); ?>

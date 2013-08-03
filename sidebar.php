@@ -2,6 +2,7 @@
 
 	<ul id="search" class="side-list-box search">
 		<h3>Search</h3>
+    <?php get_search_form(); ?>
   </ul>
 
  	<ul id="menu" class="side-list-box menu">

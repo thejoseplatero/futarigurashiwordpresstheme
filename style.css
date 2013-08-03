@@ -252,7 +252,7 @@ html[xmlns] .clearfix {
         display:block;
         /*width:140px;*/
         float:right;
-        border-bottom:1px solid #51E4A5;
+       /* border-bottom:1px solid #51E4A5;*/
         font-size: 0.750em;
       }
 

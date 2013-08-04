@@ -2,10 +2,10 @@
 <a href="#" class="go-top">Top</a>
           <div class="flag">
            <img src=
-           "<?php bloginfo('template_directory'); ?>/images/flag.svg" alt="canadian flag" title="canadian flag" />
+           "<?php bloginfo('template_directory'); ?>/images/flagred.svg" alt="canadian flag" title="canadian flag" />
           </div>
 		<div class="jose">
-			&#x40;thejoseplatero
+		
 		</div>
 
   </div>

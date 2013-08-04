@@ -33,7 +33,7 @@
              <?php echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . ' ago'; ?> 
             </div> 
 
-          <?php the_content('More'); ?>
+          <?php the_content('続きを読む'); ?>
                    
     </div>
         

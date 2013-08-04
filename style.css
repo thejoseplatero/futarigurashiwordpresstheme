@@ -43,9 +43,7 @@ html[xmlns] .clearfix {
         font-family: 'Raleway', sans-serif;
         line-height: 1.2em;
         color:black;
-        
-         
-       background: url(images/bg.png) #f6f6f6 center fixed;
+        background: url(images/bg.png) #f6f6f6 center fixed;
 
 
       }
@@ -97,43 +95,31 @@ html[xmlns] .clearfix {
         
       }
 
-  /*    .profileHeader{
-        
+      #category-list li{
+        list-style: none;
       }
-*/
 
-   /*   .iconContainer{*/
-    
-       /* margin:-2% -30% 0 0;*/
-   /*     display:inline;
-      }*/
 
- /*     .iconContainer img{
+     .iconContainer{
+      display:inline;
+      }
+
+    .iconContainer img{
         width:5%;
-      }*/
-
-
-
-     /* .navIconContainer{
-        float:right;
-        margin:-1% -10% 0 0;
-        display:inline;
-      }*/
-   /*   .navIconContainer img{
-        width: 25%;
-        float:left;
-      }*/
-/*      .searchform{
-        float:left;
       }
-*/
-      #searchinput{
-        background: transparent;
-        border: 0;
 
-        color: #c8c8c8;
+
+
+
+
+      #searchinput{
+        background: rgba(217,226,242, .5);
+        border: 0;
+        padding:4%;
+
+        color: #433CB1;
    
-        outline: 0;
+       
         width: 100%;
       }
 
@@ -197,30 +183,6 @@ html[xmlns] .clearfix {
         width: 50%;
       }
 
- /*     ul#menu-main{
-       
-      margin-top:-1%;
-      
-      }
-      */
-   /*     ul#menu-main li{
-         
-         
-          list-style: none;
-          float:left;
-          margin-left:2%;
-          margin-top:-0.4%;
-         
-        }*/
-
-/*
-       ul#menu-main li a{
-        font-size: 1.000em;
-        text-decoration: none;
-        color:white;
-      
-      
-       } */ 
 
         ul#menu-main a:hover {
         border-bottom: 1px solid #B0E57C;
@@ -245,14 +207,11 @@ html[xmlns] .clearfix {
 
 
       .categoryLabel a{
-       /* background: black;*/
         margin:1%;  
         color:gray;
         text-align: right;
         display:block;
-        /*width:140px;*/
         float:right;
-       /* border-bottom:1px solid #51E4A5;*/
         font-size: 0.750em;
       }
 
@@ -264,14 +223,13 @@ html[xmlns] .clearfix {
 
 
       #logo{
-        /*float:left;*/
-        width:  80%;
+        width:  100%;
         height:100%;
-        float:left;
+      /*  float:left;*/
       }
       #logo a{
         background:#F7E6BC;
-        color:white;
+        color:black;
         text-shadow: 0 0 0.2em #F7E6BC;
         padding:2%;
         display: block;
@@ -281,7 +239,7 @@ html[xmlns] .clearfix {
         letter-spacing: 1.2em;
         font-size:1.313em;
       }
-      #logo a:hover{
+ /*     #logo a:hover{
         
       }
 
@@ -291,11 +249,8 @@ html[xmlns] .clearfix {
         position: relative;
         right: -110%;
         left:10%;
-
-
-
-      }
-      .nav-flag{
+      }*/
+   /*   .nav-flag{
         
         float:left;
         background:#F7E6BC;
@@ -306,7 +261,7 @@ html[xmlns] .clearfix {
         padding:10%;
 
       }
-   
+   */
    
 
       /* wordpress image alignment*/
@@ -353,7 +308,7 @@ html[xmlns] .clearfix {
         margin: 0 auto;
        
       }
-
+      
 
 
       .sidebar{
@@ -399,6 +354,7 @@ html[xmlns] .clearfix {
 
       }
 
+
         .cat-item{
           list-style: none;
          
@@ -410,23 +366,20 @@ html[xmlns] .clearfix {
           right:0%;
           text-decoration: none;
           color:white;
-          background:rgba(0,0,0,.3);
+          background:rgba(146,181,20,.3);
           font-size: 1.000em;
           padding:1em;
           display:none;
         }
 
         .go-top:hover{
-          background-color: rgba(0,0,0,0.6);
+          background-color: rgba(146,181,20,0.6);
           text-decoration: none;
         }
 
     
       
-      .attachment-post-thumbnail{
-
-     
-      }
+    
 
       .footer{
         padding-top:5%;
@@ -438,31 +391,35 @@ html[xmlns] .clearfix {
         border-top:1px solid #dfdfdf;
       }
       
-      .flag{
+   /*   .flag{
         margin:0 auto;
         width: 3%;
       }
       .flag img{
         width:100%;
 
-      }
+      }*/
 
       .more-link{
-        background: #db7132;
-        font-size: 16px;
+        background: rgba(206,199,138,0.6);
+        font-size: 1.000em;
         text-transform: uppercase;
-        color: white;
+        color: black;
         display: inline-block;
         white-space: nowrap;
         border: 0;
         margin-top:1%;
-        padding: 10px 40px;
+        padding: 1% 3%;
         -webkit-border-radius: 4px;
         -moz-border-radius: 4px;
         border-radius: 4px;
         text-decoration: none;
 
-  
+      }
+
+      .more-link:hover{
+        text-decoration: none;
+        background: rgba(206,199,138,1);
 
       }
 

@@ -55,11 +55,11 @@
     <div class="wrapper">
 
       <div class="nav">
-       <div class="nav-flag">
+    <!--    <div class="nav-flag">
          <img src=
-         "<?php bloginfo('template_directory'); ?>/images/flagwhite.svg"
+         "<?php bloginfo('template_directory'); ?>/images/flagred.svg"
           alt="canadian flag" title="canadian flag" /> 
-          </div>
+          </div> -->
           
           <div id="logo">
              <a href="#"> <?php bloginfo('name'); ?></a>

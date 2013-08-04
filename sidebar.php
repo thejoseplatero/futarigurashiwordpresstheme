@@ -5,13 +5,16 @@
     <?php get_search_form(); ?>
   </ul>
 
+  <ul id="subscribe" class="side-list-box menu">
+    <h3>このブログを購読する</h3>
+      <a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>"> RSS </a>
+  </ul>
+
   <ul id="profile" class="side-list-box menu">
     <?php wp_nav_menu(array('menu' => 'main' )); ?> 
   </ul>
 
-  <ul id="subscribe" class="side-list-box menu">
-      <a href="<?php bloginfo('rss2_url'); ?>" title="<?php _e('Syndicate this site using RSS'); ?>"> このブログを購読する </a>
-  </ul>
+ 
 
   <ul id="popular-posts" class="side-list-box most-popular">
     <h3>人気の記事</h3>

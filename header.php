@@ -57,10 +57,10 @@
 
       <div class="nav">
   
-         <?php bloginfo('template_directory'); ?>
+     
           
           <div id="logo">
-             <a href="http://futarigurashi.com"> <?php bloginfo('name'); ?></a>
+             <a href='<?php get_site_url(); ?>'> <?php bloginfo('name'); ?></a>
                
           </div>
     
@@ -68,14 +68,14 @@
 
        
      
-      <?php if( is_front_page() ) { ?>
-      <div class="header mainHeader" id="header">
+
+    <div class="header mainHeader" id="header">
         
         
      </div><!-- header -->
 
         
-      <?php } ?> <!-- closing php }  -->
+
    
    
   </div>

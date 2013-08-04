@@ -43,6 +43,7 @@
     
 
       </div> 
+      <div class="next-previus"><p><?php posts_nav_link(); ?></p></div>
     </div>
 
 

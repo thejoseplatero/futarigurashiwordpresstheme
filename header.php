@@ -60,7 +60,7 @@
      
           
           <div id="logo">
-             <a href='<?php get_site_url(); ?>'> <?php bloginfo('name'); ?></a>
+             <a href='http://www.futarigurashi.com'> <?php bloginfo('name'); ?></a>
                
           </div>
     

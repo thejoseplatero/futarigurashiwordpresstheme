@@ -8,7 +8,6 @@
 
 
 
-
 //more link remove jump to last position
   function remove_more_jump_link($link) { 
     $offset = strpos($link, '#more-');

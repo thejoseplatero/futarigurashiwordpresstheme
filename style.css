@@ -110,7 +110,6 @@ html[xmlns] .clearfix {
 
 
 
-
       #searchinput{
         background: rgba(217,226,242, .5);
         border: 0;
@@ -150,7 +149,9 @@ html[xmlns] .clearfix {
       }
 
   
-
+    .related_post_title {
+      font-size: 1.313em;
+    }
 
 
    
@@ -432,6 +433,45 @@ html[xmlns] .clearfix {
         body {
          
         }
-        
-   
+
+        .wrapper{
+          width:100%;
+        }
+
+        .contentWrapper{
+          width:100%;
+        }
+
+        .header{
+          min-height: 200px;
+        }
+
+        .content{
+          width:100%;
+        }
+        .nav{
+          position: static;
+
+          width: 100%;
+        }
+        #logo{
+          width:100%;
+          padding:4%;
+        }
+        #logo a{
+          letter-spacing:0.75em;
+        }
+
+        .post{
+          width:100%;
+        }
+        .sidebar{
+          width:100%;
+        }
+
+        .featuredImageContainer{
+          width:100%;
+          margin-bottom: 4%;
+        }   
+
       }

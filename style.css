@@ -459,7 +459,7 @@ html[xmlns] .clearfix {
           padding:4%;
         }
         #logo a{
-          letter-spacing:0.75em;
+          letter-spacing:0;
         }
 
         .post{

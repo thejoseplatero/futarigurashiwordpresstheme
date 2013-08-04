@@ -62,7 +62,7 @@
           </div> -->
           
           <div id="logo">
-             <a href="#"> <?php bloginfo('name'); ?></a>
+             <a href="http://futarigurashi.com"> <?php bloginfo('name'); ?></a>
                
             </div>
 

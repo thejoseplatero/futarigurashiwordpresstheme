@@ -1,4 +1,10 @@
 <?php get_header(); ?>
+<div class="header mainHeader" id="header">
+
+
+
+
+</div><!-- header -->
 
 <div class="contentWrapper upContentWrapper">
   <?php get_sidebar() ?>  
@@ -27,9 +33,8 @@
     </div>
 
 
-      <?php related_posts(); ?>
 
-    <div class="fb-comments" data-href="http://futarigurashi.com" data-width="470" data-num-posts="2"></div> 
+    <div class="fb-comments" data-href="http://futarigurashi.com" data-width="640" data-num-posts="2"></div> 
   </div>
     <?php
     endwhile;

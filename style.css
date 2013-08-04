@@ -72,7 +72,6 @@ html[xmlns] .clearfix {
         width:100%;
         background: #f2f2f2;
         position: relative;
-      
 
       }
 
@@ -415,6 +414,9 @@ html[xmlns] .clearfix {
         body {
        
         }
+        
+
+
       }
        
       /* Landscape phone to portrait tablet */

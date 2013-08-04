@@ -2,7 +2,7 @@
 
     
 
-<div class="contentWrapper">
+<div class="contentWrapper upContentWrapper">
  <?php get_sidebar() ?>  
       <div class="content clearfix">
 

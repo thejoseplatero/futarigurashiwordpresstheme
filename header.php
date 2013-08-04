@@ -69,10 +69,18 @@
        
      
 
-    <div class="header mainHeader" id="header">
-        
-        
+   
+   <?php if( is_front_page() ) { ?>
+     <div class="header mainHeader" id="header">
+     
+     
+
+
      </div><!-- header -->
+
+     
+   <?php } ?> <!-- closing php }  -->
+   
 
         
 

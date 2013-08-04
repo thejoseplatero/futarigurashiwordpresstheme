@@ -26,9 +26,9 @@
     <?php wp_get_archives( array( 'type' => 'postbypost', 'limit' => 5 ) ); ?>
   </ul>
 
-  <ul id="category-list" class="side-list-box">
+  <ul id="category-list" class="side-list-box cat-list">
     <h3>カテゴリー</h3>
-    <?php wp_list_categories('title_li=');?>
+    <?php wp_list_categories('title_li='); ?> 
   </ul>
 
 </div>

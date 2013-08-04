@@ -239,30 +239,11 @@ html[xmlns] .clearfix {
         letter-spacing: 1.2em;
         font-size:1.313em;
       }
- /*     #logo a:hover{
-        
+
+      img#wpstats {
+           display: none;
       }
 
-      #logo img{
-        width: 12%;
-        margin: 4% 107%;
-        position: relative;
-        right: -110%;
-        left:10%;
-      }*/
-   /*   .nav-flag{
-        
-        float:left;
-        background:#F7E6BC;
-      }
-
-      .nav-flag img{
-        width:50%;
-        padding:10%;
-
-      }
-   */
-   
 
       /* wordpress image alignment*/
       img.alignright {float:right; margin:0 0 1em 1em}
@@ -309,7 +290,9 @@ html[xmlns] .clearfix {
        
       }
       
-
+      .most-popular ul{
+        padding:0;
+      }
 
       .sidebar{
           width:20%;
@@ -318,11 +301,14 @@ html[xmlns] .clearfix {
           margin-top:3.7%;
 
       }
+      .menu{
+        padding:0;
+      }
 
       .sidebar ul{
-        list-style: none;
-        padding: 0;
- 
+        
+      
+                list-style: none; 
       }
 
     
@@ -331,16 +317,18 @@ html[xmlns] .clearfix {
         
         background: white;
         font-size: 0.750em;
-        list-style: none;
-        line-height: 1.6em;
+
+        line-height: 1.8em;
        
          box-shadow: 2px 2px 5px #7D7D7D;
          border-radius:3px;
-         padding-left:10%;
-         padding-right: 10%;
+        
+     
          padding:10%;
-      
+        
       }
+
+      
 
       .side-list-box h3{
         font-size: 1.000em;
@@ -390,15 +378,7 @@ html[xmlns] .clearfix {
         min-height: 200px;
         border-top:1px solid #dfdfdf;
       }
-      
-   /*   .flag{
-        margin:0 auto;
-        width: 3%;
-      }
-      .flag img{
-        width:100%;
-
-      }*/
+ 
 
       .more-link{
         background: rgba(206,199,138,0.6);

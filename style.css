@@ -370,12 +370,10 @@ html[xmlns] .clearfix {
     
 
       .footer{
-        padding-top:5%;
+        padding:5%;
         margin:0 auto;
         text-align: center;
         background: white;
-        color:#AAD6C9;
-        min-height: 200px;
         border-top:1px solid #dfdfdf;
       }
  
@@ -403,10 +401,9 @@ html[xmlns] .clearfix {
 
       }
 
-      .arrow{
-        margin-top: 2px;
-        padding:3%;
-        font-size:21px;
+      .flag img{
+       margin:0 auto;
+       width:3%;
       }
 
 

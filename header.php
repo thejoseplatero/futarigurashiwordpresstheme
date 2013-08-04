@@ -11,23 +11,23 @@
     
     <!-- website meta -->
     <meta name="description" content="futarigurashi"/>
-    <meta name= "keywords" content=""/>
+    <meta name= "keywords" content="futarigurashi"/>
     <meta name="author" content="futarigurashi"/>
     
     <!-- open graph meta -->
     <meta property="og:title" content"<?php bloginfo('name'); ?>" />
     <meta property="og:url" content="http://www.futarigurashi.com"/>
-    <meta property="og:description" content="..."/>
+    <meta property="og:description" content="futarigurashi"/>
     <meta property="og:image" content="http://www.futarigurashi.com/..."/>
     
-    <!--     <meta property='fb:app_id' content='297600557043316' />   -->
+
 
     <!-- twitter meta -->
-    <meta name="twitter:card" content=".... ">
+    <meta name="twitter:card" content="futarigurashi">
     <meta name="twitter:site" content="@futarigurashi">
     <meta name="twitter:creator" content="@apuriko">
     <meta name="twitter:title" content="futarigurashi">
-    <meta name="twitter:description" content="...">
+    <meta name="twitter:description" content="futarigurashi">
     <meta name="twitter:image" content="http://www.futarigurashi.com/assets/logo.jpg">
 
     <!-- responsive  -->
@@ -40,6 +40,7 @@
 
 </head>
   <body <?php body_class(); ?>>
+    <?php include_once("analyticstracking.php") ?>
 <!-- facebook comments integration -->
 
     <div id="fb-root"></div>
@@ -55,39 +56,26 @@
     <div class="wrapper">
 
       <div class="nav">
-    <!--    <div class="nav-flag">
-         <img src=
-         "<?php bloginfo('template_directory'); ?>/images/flagred.svg"
-          alt="canadian flag" title="canadian flag" /> 
-          </div> -->
+  
+         <?php bloginfo('template_directory'); ?>
           
           <div id="logo">
              <a href="http://futarigurashi.com"> <?php bloginfo('name'); ?></a>
                
-            </div>
-
-       
-        
-     
-
-      
-   
-      
+          </div>
+    
       </div><!-- main navigation -->
 
        
      
       <?php if( is_front_page() ) { ?>
-        <div class="header mainHeader" id="header">
+      <div class="header mainHeader" id="header">
         
         
-
-
-        </div><!-- header -->
+     </div><!-- header -->
 
         
       <?php } ?> <!-- closing php }  -->
    
    
-  
-     </div>
+  </div>

@@ -425,6 +425,47 @@ html[xmlns] .clearfix {
         body {
        
         }
+
+        
+        .wrapper{
+          width:100%;
+        }
+
+        .contentWrapper{
+          width:100%;
+        }
+
+        .header{
+          min-height: 200px;
+        }
+
+        .content{
+          width:100%;
+        }
+        .nav{
+          position: static;
+
+          width: 100%;
+        }
+        #logo{
+          width:100%;
+          padding:4%;
+        }
+        #logo a{
+          letter-spacing:0;
+        }
+
+        .post{
+          width:100%;
+        }
+        .sidebar{
+          width:100%;
+        }
+
+        .featuredImageContainer{
+          width:100%;
+          margin-bottom: 4%;
+        }   
      
       }
        

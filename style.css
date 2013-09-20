@@ -114,10 +114,7 @@ html[xmlns] .clearfix {
         background: rgba(217,226,242, .5);
         border: 0;
         padding:4%;
-
         color: #433CB1;
-   
-       
         width: 100%;
       }
 
@@ -134,8 +131,7 @@ html[xmlns] .clearfix {
       }
 
       .upContentWrapper{
-        
-          margin: -12% auto 0 auto;
+        margin: -12% auto 0 auto;
       }
 
       .content{
@@ -306,9 +302,7 @@ html[xmlns] .clearfix {
       }
 
       .sidebar ul{
-        
-      
-                list-style: none; 
+       list-style: none; 
       }
 
     
@@ -317,15 +311,10 @@ html[xmlns] .clearfix {
         
         background: white;
         font-size: 0.750em;
-
         line-height: 1.8em;
-       
-         box-shadow: 2px 2px 5px #7D7D7D;
-         border-radius:3px;
-        
-     
-         padding:10%;
-        
+        box-shadow: 2px 2px 5px #7D7D7D;
+        border-radius:3px;
+        padding:10%;
       }
 
       
@@ -338,8 +327,6 @@ html[xmlns] .clearfix {
         position: relative;
         margin-top: -4%;
         border-bottom: 1px solid gray;
-      
-
       }
 
 
@@ -354,14 +341,14 @@ html[xmlns] .clearfix {
           right:0%;
           text-decoration: none;
           color:white;
-          background:rgba(146,181,20,.3);
+          background:rgba(146,181,20,0.6);
           font-size: 1.000em;
           padding:1em;
           display:none;
         }
 
         .go-top:hover{
-          background-color: rgba(146,181,20,0.6);
+          background-color: rgba(146,181,20,0.3);
           text-decoration: none;
         }
 

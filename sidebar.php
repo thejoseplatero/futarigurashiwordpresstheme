@@ -1,9 +1,9 @@
 <div class="sidebar">
-
+<!-- 
   <ul id="search" class="side-list-box search">
     <h3>サイト内検索</h3>
-    <?php get_search_form(); ?>
-  </ul>
+   
+  </ul> -->
 
   <ul id="subscribe" class="side-list-box menu">
     <h3>このブログを購読する</h3>
